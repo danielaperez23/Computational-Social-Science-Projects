@@ -1,0 +1,73 @@
+Last login: Sat Sep 10 12:47:05 on ttys001
+(base) daniela_perez@Danielas-MacBook-Air ~ % cd Documents
+(base) daniela_perez@Danielas-MacBook-Air Documents % mkdir CSS
+(base) daniela_perez@Danielas-MacBook-Air Documents % cd CSS
+(base) daniela_perez@Danielas-MacBook-Air CSS % git clone https://github.com/madelineadee/GitHub-Collaboration-Practice.git
+Cloning into 'GitHub-Collaboration-Practice'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+(base) daniela_perez@Danielas-MacBook-Air CSS % cd GitHub-Collaboration-Practice 
+(base) daniela_perez@Danielas-MacBook-Air GitHub-Collaboration-Practice % git checkout -b daniela_branch
+Switched to a new branch 'daniela_branch'
+(base) daniela_perez@Danielas-MacBook-Air GitHub-Collaboration-Practice % vim group.txt
+(base) daniela_perez@Danielas-MacBook-Air GitHub-Collaboration-Practice % touch danielafile.txt
+(base) daniela_perez@Danielas-MacBook-Air GitHub-Collaboration-Practice % vim danielafile.txt
+(base) daniela_perez@Danielas-MacBook-Air GitHub-Collaboration-Practice % vim Last login: Sat Sep 10 12:47:05 on ttys001
+(base) daniela_perez@Danielas-MacBook-Air ~ % cd Documents
+(base) daniela_perez@Danielas-MacBook-Air Documents % mkdir CSS
+(base) daniela_perez@Danielas-MacBook-Air Documents % cd CSS
+(base) daniela_perez@Danielas-MacBook-Air CSS % git clone https://github.com/madelineadee/GitHub-Collaboration-Practice.git
+Cloning into 'GitHub-Collaboration-Practice'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+(base) daniela_perez@Danielas-MacBook-Air CSS % cd GitHub-Collaboration-Practice 
+(base) daniela_perez@Danielas-MacBook-Air GitHub-Collaboration-Practice % git checkout -b daniela_branch
+Switched to a new branch 'daniela_branch'
+(base) daniela_perez@Danielas-MacBook-Air GitHub-Collaboration-Practice % vim group.txt
+(base) daniela_perez@Danielas-MacBook-Air GitHub-Collaboration-Practice % touch danielafile.txt
+zsh: parse error near `daniela_perez@Daniel...'
+(base) daniela_perez@Danielas-MacBook-Air GitHub-Collaboration-Practice % vim danielafile.txt
+(base) daniela_perez@Danielas-MacBook-Air GitHub-Collaboration-Practice % git add *
+(base) daniela_perez@Danielas-MacBook-Air GitHub-Collaboration-Practice % git commit -m"adding my details and text file"
+[daniela_branch 5b66615] adding my details and text file
+ 2 files changed, 20 insertions(+), 1 deletion(-)
+ create mode 100644 danielafile.txt
+(base) daniela_perez@Danielas-MacBook-Air GitHub-Collaboration-Practice % git push -u origin daniela_branch
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 859 bytes | 859.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'daniela_branch' on GitHub by visiting:
+remote:      https://github.com/madelineadee/GitHub-Collaboration-Practice/pull/new/daniela_branch
+remote: 
+To https://github.com/madelineadee/GitHub-Collaboration-Practice.git
+ * [new branch]      daniela_branch -> daniela_branch
+Branch 'daniela_branch' set up to track remote branch 'daniela_branch' from 'origin'.
+(base) daniela_perez@Danielas-MacBook-Air GitHub-Collaboration-Practice % cd
+(base) daniela_perez@Danielas-MacBook-Air ~ % cd Documents
+(base) daniela_perez@Danielas-MacBook-Air Documents % cd CSS
+(base) daniela_perez@Danielas-MacBook-Air CSS % git clone https://github.com/danielaperez23/Computational-Social-Science-Projects.git
+Cloning into 'Computational-Social-Science-Projects'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+(base) daniela_perez@Danielas-MacBook-Air CSS % mkdir Project 1
+(base) daniela_perez@Danielas-MacBook-Air CSS % cd Computational-Social-Science-Projects
+(base) daniela_perez@Danielas-MacBook-Air Computational-Social-Science-Projects % mkdir Project 1
+(base) daniela_perez@Danielas-MacBook-Air Computational-Social-Science-Projects % mkdir Project1
+(base) daniela_perez@Danielas-MacBook-Air Computational-Social-Science-Projects % cd Project1
+(base) daniela_perez@Danielas-MacBook-Air Project1 % touch project1.txt
+(base) daniela_perez@Danielas-MacBook-Air Project1 % vim project1.txt
+git add *
+git commit -m"commiting my project 1 folder and text file with code"
+git push origin main
