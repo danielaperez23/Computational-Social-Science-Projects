@@ -70,4 +70,4 @@ Receiving objects: 100% (3/3), done.
 (base) daniela_perez@Danielas-MacBook-Air Project1 % vim project1.txt
 git add *
 git commit -m"commiting my project 1 folder and text file with code"
-git push origin main
+git push -u origin main
